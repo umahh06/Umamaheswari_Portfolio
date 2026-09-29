@@ -1,0 +1,13 @@
+{
+  "name": "umamaheswari-portfolio-root",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "portfolio"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=umamaheswari-portfolio",
+    "build": "npm run build --workspace=umamaheswari-portfolio",
+    "preview": "npm run preview --workspace=umamaheswari-portfolio"
+  }
+}
